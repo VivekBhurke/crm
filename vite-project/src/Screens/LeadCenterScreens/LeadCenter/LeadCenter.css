@@ -1,0 +1,382 @@
+.LeadCenterContainer {
+  padding: 0 7%;
+  font-size: 0.8rem;
+}
+
+.LeadHeader {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeaderBtns {
+  cursor: pointer;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+.HeaderBtns:hover {
+  transform: translateY(-5px);
+}
+
+.Downloadbtn {
+  color: #000;
+  background-color: #fff;
+}
+
+.Alertbtn {
+  color: #000;
+  background-color: #fff;
+}
+
+.AddFacebookLeadsbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #f46220;
+  background-color: #fff;
+  border: 2px solid #f46220;
+}
+
+.AddLeadsbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #f46220;
+}
+
+.AddLeadsIco {
+  margin-right: 5px;
+}
+
+.LeadFilter {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5% 1.5%;
+  margin-top: 5px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.LeadFilterHeader {
+  display: flex;
+}
+
+.viewBtn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-content: centers;
+  align-items: center;
+  padding: 7px 10px;
+  color: #f46220;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ffe1d4;
+}
+
+.filterBtn {
+  justify-content: centers;
+  align-items: center;
+  padding: 7px 10px;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #fff3ee;
+}
+
+.FilterSVGs {
+  margin-right: 5px;
+}
+
+.filterOptions {
+  margin-top: 7px;
+  display: flex;
+  flex-grow: 1;
+  gap: 30px;
+}
+
+.filterOptionBtn {
+  display: flex;
+  justify-content: centers;
+  align-items: center;
+  padding: 5px 13px;
+  border: 1px solid #7a7a7a;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.clearFilterBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.clearFilterICo {
+  transform: rotate(45deg);
+}
+
+.leadStats {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 1.5%;
+  margin-top: 5px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.statsOptions {
+  display: flex;
+  gap: 15px;
+}
+
+.statsBtn {
+  background-color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 7px;
+}
+.statsBtn:focus {
+  background-color: #ffe1d4;
+  color: #f46220;
+}
+
+.UnsortedBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 7px;
+  background-color: #e8e8e8;
+}
+.UnsortedBtn:focus {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th,
+tbody td {
+  padding: 5px 11px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody td {
+  font-weight: 500;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.completeForm {
+  background-color: #dff2e3;
+  color: green;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.incompleteForm {
+  background-color: #ffe0e0;
+  color: red;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.stage-qualified {
+  background-color: #dff2e3;
+  color: green;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.stage-not-qualified {
+  background-color: #ffe0e0;
+  color: red;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.stage-intake {
+  background-color: #bfcdea;
+  color: blue;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.stage-converted {
+  background-color: #ffefc1;
+  color: #ffc107;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.AssignedToTable {
+  background-color: #dbdbdb;
+  color: #000;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+
+.stage-lost {
+  background-color: #f2f2f2;
+  color: black;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.totalEntries {
+  color: #a09d9d;
+}
+
+.paginationMain {
+  display: flex;
+  gap: 10px;
+}
+
+.active {
+  margin-right: 5px;
+  color: blue;
+}
+
+.paginationMain button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.ArrowBtn {
+  margin: 0 10px;
+}
+
+.dateFilterContainer {
+  position: absolute;
+  background-color: #fff;
+  top: 280px;
+  margin-top: 5px;
+  margin-left: 110px;
+  display: flex;
+  min-width: 350px;
+  min-height: 250px;
+  border-radius: 3px;
+  gap: 10px;
+  box-shadow: 0 0 25px rgb(0, 0, 0);
+}
+
+.dateFilterOpt {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 0.9rem;
+  align-items: left;
+  justify-content: left;
+  min-width: 120px;
+  text-align: left;
+  border-radius: 0 15px 15px 0;
+  padding: 10px 5px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.DateRadioBtn {
+  accent-color: #f46220;
+}
+
+.datePickerSection {
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range {
+  background-color: #f46220 !important;
+  color: white !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #f46220 !important;
+  color: white !important;
+}
+
+.selected-row {
+  background-color: #ffe7dd;
+}
+
+.selectedRowDataContainer {
+  background-color: #fff;
+  position: absolute;
+  top: 105px;
+  right: 10px;
+  box-shadow: 0 0 1000px rgb(0, 0, 0);
+  border-radius: 7px;
+  min-width: 200px;
+  min-height: calc(100vh - 130px);
+  max-height: calc(100vh - 130px);
+  overflow: scroll;
+  overflow-x: hidden;
+  animation-duration: 0.5s;
+}
+
+.slidein {
+  animation-name: slidein;
+}
+
+.slideout {
+  animation-name: slideout;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(150vw) scale(2, 1);
+  }
+  to {
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes slideout {
+  from {
+    transform: translateX(0) scale(1);
+  }
+  to {
+    transform: translateX(-150vw) scale(2, 1);
+  }
+}
+
+.Modalheader {
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.CloseBtn {
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.contactInfo {
+  align-items: left;
+}
+
+.contactInfo h4 {
+  font-size: 0.9rem;
+  justify-content: left;
+  align-items: center;
+}

@@ -1,0 +1,92 @@
+.Navcontainer{
+    /* background-color: #ff8953;
+    min-height: 100vh;
+    max-width: 350px;
+    border-radius: 0px;
+    text-align: center; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #ff8953;
+    max-width: 250px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.NavHead{
+    display: flex;
+    padding: 5% 3%;
+    align-items: center;  
+    justify-content: center;
+}
+
+.NavHead img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.NavHead h3{
+    color: #fff;
+}
+
+.ListItem {
+    position: relative;
+    padding: 20px 5px 20px 20px;
+}
+
+.navLink{
+    color: #ebcabb;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navLink:focus{
+    color: #fff;
+}
+
+svg{
+    fill: #ebcabb;
+    fill-opacity: "0.3";
+}
+
+.navLink:focus svg{
+    fill: #fff;
+    fill-opacity: 1;
+}
+
+
+.navLink::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border-radius: 0px 15px 15px 0px;
+    transform: translateY(-50%);
+    width: 7px;
+    height: 100%;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+}
+
+.navLink:focus::before {
+    background-color: #fff;
+}
+
+.linkContainer{
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    max-width: fit-content;
+    gap: 10px;
+}
+
+.link{
+    text-align: left;
+}
+
+
+.bottomLink{
+    margin-top: 35%;
+}

@@ -1,0 +1,74 @@
+.TopNav {
+  position: fixed;
+  top: 0;
+  left: 100px;
+  right: 0;
+  background-color: #fff;
+  padding: 5px 35px 5px 35px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.projectSelect{
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #f46220;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  padding: 3px 10px;
+  background-color: #f2f2f5;
+  border-radius: 50px;
+  border: 2px solid #989a9c;
+}
+
+.SearchField {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 350px;
+  font-size: 12px;
+  background-color: #f2f2f5;
+  color: #495057;
+}
+
+.searchContainer .SearchField::placeholder {
+  color: #adb5bd;
+}
+
+.rightMenu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-left: auto;
+}
+
+.profileContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  gap: 7px;
+}
+
+.profileImage{
+  width: 50px;
+  max-height: 50px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.userName{
+  font-weight: 1000;
+}
+
+.UserEmail{
+  color: #55575a;
+}

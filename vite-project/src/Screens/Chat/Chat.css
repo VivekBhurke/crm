@@ -1,0 +1,204 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.ChatContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.Sidebar {
+  width: 250px;
+  background-color: #FF5722; /* Orange color */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.Sidebar .Logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.Sidebar .Menu,
+.Sidebar .BottomMenu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Sidebar .Menu li,
+.Sidebar .BottomMenu li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.Sidebar .Menu li.active,
+.Sidebar .Menu li:hover {
+  font-weight: bold;
+}
+
+.ChatContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ChatHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.ChatHeader input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.UserProfile {
+  display: flex;
+  align-items: center;
+}
+
+.UserProfile img {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.ChatBody {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.ChatList {
+  width: 300px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.ChatItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ChatItem:hover,
+.ChatItem.active {
+  background-color: #f5f5f5;
+}
+
+.ChatItem img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.ChatDetails {
+  flex: 1;
+}
+
+.ChatName {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ChatMessage {
+  color: #888;
+}
+
+.ChatTime {
+  font-size: 12px;
+  color: #888;
+}
+
+.ChatWindow {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.ChatWelcome {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ChatWelcome img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.WelcomeMessage {
+  text-align: center;
+}
+
+.ChatMessages {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.Message {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  max-width: 60%;
+  position: relative;
+}
+
+.Message.sent {
+  background-color: #DCF8C6;
+  align-self: flex-end;
+  border-top-right-radius: 0;
+  text-align: right;
+}
+
+.Message.received {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  align-self: flex-start;
+  border-top-left-radius: 0;
+  text-align: left;
+}
+
+.ChatInput {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+}
+
+.ChatInput input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.ChatInput button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #FF5722;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ChatInput button:hover {
+  background-color: #E64A19;
+}

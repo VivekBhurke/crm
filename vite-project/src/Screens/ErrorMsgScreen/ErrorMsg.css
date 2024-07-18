@@ -1,0 +1,14 @@
+
+
+.error-img img{
+    height: 500px;
+}
+
+.error-msg span{
+        cursor: pointer;
+        color: #FC3B27;
+}
+.error-msg{
+    font-size: 20px;
+    font-weight: bold;
+}

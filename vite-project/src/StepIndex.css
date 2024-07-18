@@ -1,0 +1,29 @@
+.step-indicator {
+  display: flex;
+  align-items: center;
+}
+
+.step {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #999;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.step.completed {
+  background-color: #ff7f50;
+  color: white;
+}
+
+.connector {
+  width: 50px;
+  height: 2px;
+  background-color: #ccc;
+}
